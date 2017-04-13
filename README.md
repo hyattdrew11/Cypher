@@ -1,5 +1,5 @@
 # Cypher
-Cypher is an opensource PHP admin and analytics dahsboard. It is designed to help developers quickly setup and modify the application to fit their project needs. My aim is also to help those new to PHP development and development in general circumvent many of the barriers I faced as a new developer with no formal training.
+Cypher is an opensource PHP admin and analytics dahsboard. It is designed to help developers quickly setup and modify the application to fit their project needs. My aim is also to help those new to PHP development and development in general circumvent many of the barriers I faced as a new developer with no formal training. We will cover a wide range of topics and tools that are applicable not only to this project to to many others, such as CSS frameworks, Javascript Libraries, user authenticaton through session variables, password encryption, database management, brute force attacks, and asyncronous data posting and retrival. 
 
 ## Getting Started 
 
@@ -42,7 +42,19 @@ Open the Web Server section to the left of our PHP section. Here we want to choo
 
 * Web Server: Apache
 * Document Root:
-filepath > Cypher
+* filepath > Cypher Repository > Cypher > dashboard
+
+By choosing this filepath in MAMP index.php will be run by our mock server through mamp and the application can be accesed through your browser, which I will walk you through below. 
+
+#### Viewing and Using the Application in your browser
+If you have no errors from MAMP and our servers are up running correctly you should be able to view the basic application. Open Google Chrome or the browser of your choice. By starting our servers through MAMP we can view Cypher by typing http://localhost:8888/ into our address bar. 
+
+http://localhost:8888/ runs the index.php file found in the dashboard directory. You should see a basic dashboard template with a navigation bar on the left hand side and a messaging welcoming you to login. You can navigate to the Cypher login/user registration portals, but will not be able to register or login until we setup or MySQL database, which I will explain below. 
+
+### Setup our MySql Database
+
+
+
 
 
 

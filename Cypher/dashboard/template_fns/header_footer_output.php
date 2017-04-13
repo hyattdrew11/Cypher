@@ -46,7 +46,7 @@ function do_html_header($title) {
     <nav class='navbar navbar-default'>
       <div class='container-fluid'>
         <div class='navbar-header'>
-          <img id='brand_img' src='img/core-img/logo-blue.png' />
+          <img id='brand_img' src='img/core-img/logo.png' />
         </div>
         <div class='nav_bar'>
           <ul id='navigation'>
