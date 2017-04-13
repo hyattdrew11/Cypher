@@ -6,7 +6,7 @@ function display_login_form() {
     <form method='post' action='attempt-login.php'>
 
     <div class='formblock'>
-      <img id='login-img-header' src='../../img/core-img/logo-blue.png' />
+      <img id='login-img-header' src='../../img/core-img/logo.png' />
       <hr />
 
       <div class='input-container'>
@@ -31,7 +31,7 @@ function display_login_form_locked() {
     <form>
 
     <div class='formblock'>
-      <img id='login-img-header' src='../../img/core-img/logo-blue.png' />
+      <img id='login-img-header' src='../../img/core-img/logo.png' />
       <hr />
       <p style='color:red;text-align:center;'>You have been locked out for 30 minutes due to 3 unsuccessful login attempts.</p>
 
@@ -56,7 +56,7 @@ function display_registration_form() {
    <form method='post' action='form_scripts/register_new.php'>
 
    <div class='formblock'>
-     <img src='../../img/core-img/logo-blue.png' id='resigter-img-header' />
+     <img src='../../img/core-img/logo.png' id='resigter-img-header' />
      <hr />
      <p style='color:darkgrey;text-align:center;'>New User Registration</p>
 
@@ -121,7 +121,7 @@ function display_forgot_form() {
   <div id='register-form-container'>
     <form action='form_scripts/forgot_passwd.php' method='post'>
       <div class='formblock'>
-        <img src='../../img/core-img/logo-blue.png' id='resigter-img-header' />
+        <img src='../../img/core-img/logo.png' id='resigter-img-header' />
         <hr />
         <div class='input-container'>
           <p style='color:darkgrey;text-align:center;'>Reset Your Password</p>
