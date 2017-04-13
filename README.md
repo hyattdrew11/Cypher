@@ -18,11 +18,11 @@ After downloading the source files for this project I reccomend moving them to a
 
 Using the home directory for projects will save you some headache once you become more familiar with Git and the using the command line. Since you are here on Github I will assume you know the basics of Git, but if not here is a guide that helped me when I had no idea what Git was or was used for [Git No Deep Sh!+](http://rogerdudler.github.io/git-guide/).
 
-#### Get Going with Sublime
+#### Sublime Text Setup
 
 Once you have downloaded or pulled the Cyper files & placed them where you would like open up Sublime text. You should see a blank project and file interface. Drag and drop the Cypher directory onto the new Sublime project window. The project files are now accessible in the sidebar located on the far left of your project window. Double clicking files you want to edit will place them in a new tab. 
 
-#### Setting up MAMP and you MySQL Database
+#### MAMP Setup
 After downloading MAMP or MAMP Pro open up the application. MAMP Pro offers some extra functionality, but is a pay to play application. MAMP is totally free and is sufficient to run this project. Once MAMP has loaded we need to setup our preferences and get this application running. By defalut MAMP with load with our Apache and MySQL servers running. Go ahead and stop these from running by clicking the Stop Servers button. Now click the preferences button opposite the server button. 
 
 Open the Ports section in preferences. Here you can manually set the ports for your various servers. 
@@ -51,7 +51,8 @@ If you have no errors from MAMP and our servers are up running correctly you sho
 
 http://localhost:8888/ runs the index.php file found in the dashboard directory. You should see a basic dashboard template with a navigation bar on the left hand side and a messaging welcoming you to login. You can navigate to the Cypher login/user registration portals, but will not be able to register or login until we setup or MySQL database, which I will explain below. 
 
-### Setup our MySql Database
+### Setup MySql Database
+
 
 
 
