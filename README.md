@@ -5,9 +5,9 @@ Cypher is an opensource PHP admin and analytics dahsboard. It is designed to hel
 
 ### Tools I reccomend for developing on your PC
 
-* Sublime Text Opensource Text Editor (https://www.sublimetext.com/3)
-* MAMP: My Apache - MySQL - PHP local server (https://www.mamp.info/en/downloads/)
-* Google Chrome (https://www.google.com/chrome/browser/desktop/) My prefeered browser with Developer Tools Included
-* Mozilla Firefox with Firebug Developer Tools (http://getfirebug.com/)
+* [Sublime Text Opensource Text Editor](https://www.sublimetext.com/3)
+* [MAMP: My Apache - MySQL - PHP local server](https://www.mamp.info/en/downloads/)
+* [Google Chrome](https://www.google.com/chrome/browser/desktop/) My prefeered browser with Developer Tools Included
+* [Mozilla Firefox with Firebug Developer Tools](http://getfirebug.com/)
 
 
