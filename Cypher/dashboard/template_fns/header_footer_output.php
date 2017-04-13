@@ -10,26 +10,26 @@ function do_html_header($title) {
 <head>
   <title></title>
   <meta charset='utf-8'>
-   <link rel='icon' type='img/ico' href='../../img/core-img/favicon.ico'>
+   <link rel='icon' type='img/ico' href='img/core-img/favicon.ico'>
   <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
-  <link rel='stylesheet' href='../../css/font-awesome.min.css' type='text/css' media='screen'>
-  <link rel='stylesheet' href='../../css/bootstrap.min.css' type='text/css' media='screen'>
-  <link id='dashboard_style' rel='stylesheet' href='../../css/dashboard-style.css' type='text/css' media='screen'>
-  <link rel='stylesheet' href='../../css/media.css' type='text/css' media='screen'>
-  <link rel="stylesheet" href="../../css/vex.css" />
-  <link rel="stylesheet" href="../../css/vex-theme-os.css" />
-  <script type='text/javascript' src='../../js/jquery-2.2.4.min.js'></script>
-  <script type='text/javascript' src='../../js/bootstrap.min.js'></script>
+  <link rel='stylesheet' href='css/font-awesome.min.css' type='text/css' media='screen'>
+  <link rel='stylesheet' href='css/bootstrap.min.css' type='text/css' media='screen'>
+  <link id='dashboard_style' rel='stylesheet' href='css/dashboard-style.css' type='text/css' media='screen'>
+  <link rel='stylesheet' href='css/media.css' type='text/css' media='screen'>
+  <link rel="stylesheet" href="css/vex.css" />
+  <link rel="stylesheet" href="css/vex-theme-os.css" />
+  <script type='text/javascript' src='js/jquery-2.2.4.min.js'></script>
+  <script type='text/javascript' src='js/bootstrap.min.js'></script>
   <script src='https://use.typekit.net/zbk0mix.js'></script>
-  <script type='text/javascript' src='../../js/nav-toggle.js'></script>
+  <script type='text/javascript' src='js/nav-toggle.js'></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
   <script src="https://code.highcharts.com/highcharts.js"></script>
   <script src="https://code.highcharts.com/modules/exporting.js"></script>
   <script src="https://code.highcharts.com/highcharts-more.js"></script>
   <script src="https://code.highcharts.com/modules/solid-gauge.js"></script>
   <script src='https://code.highcharts.com/css/highcharts.css'></script>
-  <script src="../../js/highcharts.js"></script>
-  <script src="../../js/vex.combined.min.js"></script>
+  <script src="js/highcharts.js"></script>
+  <script src="js/vex.combined.min.js"></script>
   <script>vex.defaultOptions.className = 'vex-theme-os'</script>
   
   <!--<script type='text/javascript' src='jquery-3.1.0.min.js'></script> -->
@@ -46,7 +46,7 @@ function do_html_header($title) {
     <nav class='navbar navbar-default'>
       <div class='container-fluid'>
         <div class='navbar-header'>
-          <img id='brand_img' src='../../img/core-img/logo-blue.png' />
+          <img id='brand_img' src='img/core-img/logo-blue.png' />
         </div>
         <div class='nav_bar'>
           <ul id='navigation'>
