@@ -51,6 +51,22 @@ If you have no errors from MAMP and our servers are up running correctly you sho
 http://localhost:8888/ runs the index.php file found in the dashboard directory. You should see a basic dashboard template with a navigation bar on the left hand side and a message welcoming you to login. You can navigate to the Cypher login/user registration portals, but will not be able to register or login until we setup or MySQL database, which I will walk you through below explain below. 
 
 ### Setup MySql Database
+Now we need to create a MySql database in order to move forward. MySql is an opensource database, which is widely used throughout the web. A reference that helped me understand MySql when first starting are tables similar to tables one can create in Microsoft Excel with rows and columns. Our MySql database holds however many tables you would like to use and we can access, update and display data from these tables with PHP "queries" or commands. For more information concerning MySql please review thier documentation found [here](https://dev.mysql.com/doc/). 
+
+Let's move forward and create our first database. We will be doing this locally with MAMP, but the process is basically the same when using hosting services such as Godaddy or Media Temple, and can be done manullay through the command line.
+
+Open a new tab in your browser. Type http://localhost:8888/MAMP into your address bar. MAMP will show you various things on this page such as your MySql username & password, Hostname, and Socket. We need to navigate to our phpMyAdmin interface which can be found under tools in the top navigation bar. 
+
+phpMyAdmin is a free software tool written in PHP, intended to handle the administration of MySQL over the Web. phpMyAdmin supports a wide range of operations on MySQL and MariaDB. Frequently used operations (managing databases, tables, columns, relations, indexes, users, permissions, etc) can be performed via the user interface, while you still have the ability to directly execute any SQL statement. For more info on phpMyAdmin the documentation can be found [here])(https://www.phpmyadmin.net/docs/).
+
+OT create a new database click on the databases tab found near the top left of the browser. An inout box should appear where we can name and then create our new database. Name it whatever you like, I typially give my database the same name as the overall project I am using it for. So Cypher would be the database name for this particular project. Click create and you will see our new Cypher database on the left side bar.
+
+Our database is currently empty, which we will change momentarily by addin the necessary tables or schema to used in by our application. 
+
+#### Creating Tables and our database schema
+
+
+
 
 
 
