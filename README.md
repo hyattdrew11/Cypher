@@ -41,15 +41,14 @@ Open the PHP section next to the ports section. Here you can select, which versi
 Open the Web Server section to the left of our PHP section. Here we want to choose our web server type and project directory where our server will run the files you downloaded. 
 
 * Web Server: Apache
-* Document Root:
-* filepath > Cypher Repository > Cypher > dashboard
+* Document Root: filepath > Cypher Repository > Cypher > dashboard
 
-By choosing this filepath in MAMP index.php will be run by our mock server through mamp and the application can be accesed through your browser, which I will walk you through below. 
+By choosing this filepath in MAMP the index.php will be run by our mock server through MAMP and the application can be accesed through your browser, which I will walk you through below. 
 
 #### Viewing and Using the Application in your browser
 If you have no errors from MAMP and our servers are up running correctly you should be able to view the basic application. Open Google Chrome or the browser of your choice. By starting our servers through MAMP we can view Cypher by typing http://localhost:8888/ into our address bar. 
 
-http://localhost:8888/ runs the index.php file found in the dashboard directory. You should see a basic dashboard template with a navigation bar on the left hand side and a messaging welcoming you to login. You can navigate to the Cypher login/user registration portals, but will not be able to register or login until we setup or MySQL database, which I will explain below. 
+http://localhost:8888/ runs the index.php file found in the dashboard directory. You should see a basic dashboard template with a navigation bar on the left hand side and a message welcoming you to login. You can navigate to the Cypher login/user registration portals, but will not be able to register or login until we setup or MySQL database, which I will walk you through below explain below. 
 
 ### Setup MySql Database
 
