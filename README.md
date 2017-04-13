@@ -20,9 +20,31 @@ Using the home directory for projects will save you some headache once you becom
 
 #### Get Going with Sublime
 
-Once you have downloaded or pulled the Cyper files & plced them where you would like open up Sublime text. You should see a blank project and file interface. Drag and drop the Cypher directory onto the new Sublime project window. The project files are now accessible in the sidebar located on the far left of your project window. Double clicking files you want to edit will place them in a new tab. 
+Once you have downloaded or pulled the Cyper files & placed them where you would like open up Sublime text. You should see a blank project and file interface. Drag and drop the Cypher directory onto the new Sublime project window. The project files are now accessible in the sidebar located on the far left of your project window. Double clicking files you want to edit will place them in a new tab. 
 
-#### Setting up MAMP
+#### Setting up MAMP and you MySQL Database
+After downloading MAMP or MAMP Pro open up the application. MAMP Pro offers some extra functionality, but is a pay to play application. MAMP is totally free and is sufficient to run this project. Once MAMP has loaded we need to setup our preferences and get this application running. By defalut MAMP with load with our Apache and MySQL servers running. Go ahead and stop these from running by clicking the Stop Servers button. Now click the preferences button opposite the server button. 
+
+Open the Ports section in preferences. Here you can manually set the ports for your various servers. 
+
+Set MAMP ports to default.
+
+* Apache Port: 8888
+* Nginx Port: 8888
+* MySQL Port: 8889
+
+Open the PHP section next to the ports section. Here you can select, which version of PHP you want to use. We want to use the current and standard version. As of today it is version 7.0.15
+
+* Standard Version: 7.0.15
+* Cache: off
+
+Open the Web Server section to the left of our PHP section. Here we want to choose our web server type and project directory where our server will run the files you downloaded. 
+
+* Web Server: Apache
+* Document Root:
+filepath > Cypher
+
+
 
 
 

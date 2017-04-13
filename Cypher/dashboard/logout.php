@@ -28,9 +28,9 @@ if (!empty($old_user)) {
 }
 ?>
 <meta name="viewport" content="width=device-width">
-<link rel="stylesheet" href="../../css/bootstrap.min.css" type="text/css" media="screen">
-<link rel="stylesheet" href="../../css/font-awesome.min.css" type="text/css" media="screen">
-<link rel="stylesheet" href="../../css/login-registration.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/login-registration.css" type="text/css" media="screen">
 <style>
 @import url('https://fonts.googleapis.com/css?family=Arimo');
 * {

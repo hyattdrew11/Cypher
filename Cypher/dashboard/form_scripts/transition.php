@@ -9,14 +9,14 @@ function transition_header($title) {
 <head>
   <title></title>
   <meta charset='utf-8'>
-  <link rel='icon' type='img/ico' href='../../../img/core-img/favicon.ico'>
+  <link rel='icon' type='img/ico' href='../img/core-img/favicon.ico'>
   <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
-  <link rel='stylesheet' href='../../../css/bootstrap.min.css' type='text/css' media='screen'>
-  <link rel='stylesheet' href='../../../css/font-awesome.min.css' type='text/css' media='screen'>
-  <link rel='stylesheet' href='../../../css/dashboard-style.css' type='text/css' media='screen'>
-  <link rel='stylesheet' href='../../../css/media.css' type='text/css' media='screen'>
-  <script type='text/javascript' src='../../../js/jquery-2.2.4.min.js'></script>
-  <script type='text/javascript' src='../../../js/bootstrap.min.js'></script>
+  <link rel='stylesheet' href='../css/bootstrap.min.css' type='text/css' media='screen'>
+  <link rel='stylesheet' href='../css/font-awesome.min.css' type='text/css' media='screen'>
+  <link rel='stylesheet' href='../css/dashboard-style.css' type='text/css' media='screen'>
+  <link rel='stylesheet' href='../css/media.css' type='text/css' media='screen'>
+  <script type='text/javascript' src='../js/jquery-2.2.4.min.js'></script>
+  <script type='text/javascript' src='../js/bootstrap.min.js'></script>
   
   <!--<script type='text/javascript' src='jquery-3.1.0.min.js'></script> -->
   <!--[if IE 8]><script src='http://html5shiv.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
@@ -28,7 +28,7 @@ function transition_header($title) {
     <nav class='navbar navbar-default'>
       <div class='container-fluid'>
         <div class='navbar-header'>
-          <img style='display: inline-block;float: left;height: 35px;margin-top: 7px;margin-left: -5px;' src='../../../img/core-img/logo-blue.png' />
+          <img style='display: inline-block;float: left;height: 35px;margin-top: 7px;margin-left: -5px;' src='../img/core-img/logo-blue.png' />
           <!-- <button style='float:right;' class='btn btn-success' type='button'><a href='logout.php'>logout</a> <i class='fa fa-caret-square-o-down' aria-hidden='true'></i></button> -->
         </div>
         <div class='nav_bar'>
@@ -53,7 +53,7 @@ function transition_header($title) {
 
             <li class='nav_list'>
               <a href='../privileged-accounts.php'><i title='Privileged Accounts' class='fa fa-briefcase' aria-hidden='true'></i></a>
-              <a class='nav_text' href='../../../privileged-accounts.php'>Privileged Accounts</a>
+              <a class='nav_text' href='../privileged-accounts.php'>Privileged Accounts</a>
             </li>
 
             <li class='nav_list'>
