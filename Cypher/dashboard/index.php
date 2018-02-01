@@ -6,7 +6,7 @@ do_html_header();
 
 ?>
 
-<h2>Welcome to Cypher Master</h2>
+<h2>Welcome to Cypher Edits</h2>
 <a href="login.php">LOGIN</a>
 
 <?php
