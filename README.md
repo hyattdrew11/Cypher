@@ -1,5 +1,5 @@
 # Cypher
-Cypher is an opensource PHP admin and analytics dahsboard. It is designed to help developers quickly setup and modify the application to fit their project needs. My aim is also to help those new to PHP development and development in general circumvent many of the barriers I faced as a new developer with no formal training. We will cover a wide range of topics and tools that are applicable not only to this project to to many others, such as CSS frameworks, Javascript Libraries, user authenticaton through session variables, password encryption, database management, brute force attacks, and asyncronous data posting and retrival. 
+Cypher is an open source PHP admin and analytics dahsboard. It is designed to help developers quickly setup and modify the application to fit their project needs. My aim is also to help those new to PHP development and development in general circumvent many of the barriers I faced as a new developer with no formal training. We will cover a wide range of topics and tools that are applicable not only to this project to to many others, such as CSS frameworks, Javascript Libraries, user authenticaton through session variables, password encryption, database management, brute force attacks, and asyncronous data posting and retrival. 
 
 ## Getting Started 
 
